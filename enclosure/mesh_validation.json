@@ -1,0 +1,14 @@
+{
+  "case_lid.stl": {
+    "triangles": 2576,
+    "nonmanifold_edges": 0,
+    "orientation_errors": 0,
+    "positive_signed_volume": true
+  },
+  "case_body.stl": {
+    "triangles": 5860,
+    "nonmanifold_edges": 0,
+    "orientation_errors": 0,
+    "positive_signed_volume": true
+  }
+}
