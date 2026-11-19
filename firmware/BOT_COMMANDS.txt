@@ -1,0 +1,10 @@
+start - Open monitoring dashboard
+status - Latest estimates and signal quality
+live - Start a 60 second live dashboard
+stop - Stop live dashboard updates
+ack - Acknowledge the current alert by number
+test - Test buzzer and Telegram delivery
+demo - Demo on or off for drop testing
+health - Sensor network and timing diagnostics
+update - Phone firmware update instructions
+help - Commands and alert meanings
