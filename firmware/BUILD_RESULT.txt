@@ -1,0 +1,27 @@
+BUILD VERIFICATION: PASSED (compile/link only; no hardware run)
+Target: esp32:esp32:esp32c3:CDCOnBoot=cdc,PartitionScheme=default
+ESP32 Arduino core: 3.3.0
+ArduinoJson: 7.4.2
+Adafruit MPU6050: 2.2.9
+Adafruit BusIO: 1.17.4
+Adafruit Unified Sensor: 1.1.15
+SparkFun MAX3010x Pulse and Proximity Sensor Library: 1.1.2
+
+Sketch uses 1227406 bytes (93%) of program storage space. Maximum is 1310720 bytes.
+Global variables use 42904 bytes (13%) of dynamic memory, leaving 284776 bytes for local variables. Maximum is 327680 bytes.
+
+Warnings: upstream SparkFun headers redefine I2C_BUFFER_LENGTH and declare
+unused static algorithm arrays. The library also emitted unused-variable and
+parentheses warnings in its own sources on the initial uncached build.
+No compiler errors. No changes were made to installed library sources.
+
+Flash/RAM figures are static build figures, not measured runtime free heap.
+Credentials remain placeholders; no live Telegram transmission or hardware
+sensor/buzzer/OTA test was performed. The firmware binary is intentionally
+not included: set your private credentials and compile locally before upload.
+
+Source SHA-256:
+ff733a18ba9fdc5cbfb1669e1313c3491e3bfd5a6cdd4426a62c107133400dd9  certs.h
+fb5779b39a8fc8039a748db4e85cfab40a48ee678404da12075f8442bcc10665  config.h
+f778cf7589f3de425cc337ce7f9bdc9edda193fbc71b18dfe8252ffdac20c0d7  firmware.h
+a7786eb619ae4eb06dd728c06876ae3fe6706f61e2e99c1bdeaa79dd1602e329  ElderCare_C3.ino
