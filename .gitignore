@@ -1,0 +1,19 @@
+# Arduino build outputs
+*.bin
+*.elf
+*.hex
+*.map
+build/
+.pio/
+# Editor / OS artefacts
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+# Python (enclosure generator)
+__pycache__/
+*.pyc
+# NOTE: firmware/config.h is a SANITIZED TEMPLATE with placeholders only.
+# Fill in your own credentials locally and never commit real Wi-Fi passwords,
+# bot tokens or Telegram chat IDs.
